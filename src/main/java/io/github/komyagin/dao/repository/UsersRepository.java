@@ -1,7 +1,7 @@
-package io.github.komyagin.dao.entity.dao.repository;
+package io.github.komyagin.dao.repository;
 
-import io.github.komyagin.dao.entity.dao.entity.User;
-import io.github.komyagin.dao.entity.services.UserService;
+import io.github.komyagin.dao.entity.User;
+import io.github.komyagin.services.UserService;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Nonnull;
@@ -32,7 +32,7 @@ public class UsersRepository implements UserService {
 
     @Override
     public void remove(@Nonnull User user) {
-        usersContainer.remove(user);
+        usersContainer.remove(user.getId());
     }
 
     @Override

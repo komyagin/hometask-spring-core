@@ -1,4 +1,4 @@
-package io.github.komyagin.dao.entity.dao.entity;
+package io.github.komyagin.dao.entity;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

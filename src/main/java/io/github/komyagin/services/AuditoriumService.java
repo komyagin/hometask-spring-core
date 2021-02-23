@@ -1,11 +1,11 @@
-package io.github.komyagin.dao.entity.services;
+package io.github.komyagin.services;
 
 import java.util.Set;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import io.github.komyagin.dao.entity.dao.entity.Auditorium;
+import io.github.komyagin.dao.entity.Auditorium;
 
 public interface AuditoriumService {
 

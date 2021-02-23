@@ -1,4 +1,4 @@
-package io.github.komyagin.dao.entity.core;
+package io.github.komyagin.core;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -1,4 +1,4 @@
-package io.github.komyagin.dao.entity.dao.entity;
+package io.github.komyagin.dao.entity;
 
 import java.util.NavigableSet;
 import java.util.Objects;
@@ -90,7 +90,8 @@ public class User extends DomainObject {
     @Override
     public String toString() {
         return "User{" +
-                "firstName='" + firstName + '\'' +
+                "id='" + getId() + '\'' +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", tickets=" + tickets +

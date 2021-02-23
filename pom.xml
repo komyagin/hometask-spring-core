@@ -61,7 +61,7 @@
                 <version>${spring.boot.maven.plugin}</version>
                 <configuration>
                     <fork>true</fork>
-                    <mainClass>io.github.komyagin.dao.entity.core.App</mainClass>
+                    <mainClass>io.github.komyagin.core.App</mainClass>
                 </configuration>
                 <executions>
                     <execution>

@@ -1,9 +1,9 @@
-package io.github.komyagin.dao.entity.services;
+package io.github.komyagin.services;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import io.github.komyagin.dao.entity.dao.entity.User;
+import io.github.komyagin.dao.entity.User;
 
 public interface UserService extends AbstractDomainObjectService<User> {
 

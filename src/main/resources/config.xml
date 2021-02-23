@@ -21,9 +21,9 @@
                     static-field="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.SYSTEM_PROPERTIES_MODE_OVERRIDE"/>
         </property>
     </bean>
-    <bean id="app" class="io.github.komyagin.dao.entity.core.App"/>
-    <bean id="adminCommands" class="io.github.komyagin.dao.entity.cmds.AdminCommands">
+    <bean id="app" class="io.github.komyagin.core.App"/>
+    <bean id="adminCommands" class="io.github.komyagin.cmds.UserServiceCommands">
         <property name="repository" ref="usersRepository"/>
     </bean>
-    <bean id="usersRepository" class="io.github.komyagin.dao.entity.dao.repository.UsersRepository"/>
+    <bean id="usersRepository" class="io.github.komyagin.dao.repository.UsersRepository"/>
 </beans>

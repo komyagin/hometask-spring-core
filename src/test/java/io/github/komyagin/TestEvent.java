@@ -1,6 +1,6 @@
-package io.github.komyagin.dao.entity;
+package io.github.komyagin;
 
-import io.github.komyagin.dao.entity.dao.entity.Event;
+import io.github.komyagin.dao.entity.Event;
 
 public class TestEvent {
 

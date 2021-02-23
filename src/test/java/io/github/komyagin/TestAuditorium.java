@@ -1,4 +1,4 @@
-package io.github.komyagin.dao.entity;
+package io.github.komyagin;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

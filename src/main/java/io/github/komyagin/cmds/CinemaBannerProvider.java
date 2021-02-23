@@ -1,4 +1,4 @@
-package io.github.komyagin.dao.entity.cmds;
+package io.github.komyagin.cmds;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

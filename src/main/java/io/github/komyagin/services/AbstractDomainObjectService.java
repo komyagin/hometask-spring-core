@@ -1,10 +1,10 @@
-package io.github.komyagin.dao.entity.services;
+package io.github.komyagin.services;
 
 import java.util.Collection;
 
 import javax.annotation.Nonnull;
 
-import io.github.komyagin.dao.entity.dao.entity.DomainObject;
+import io.github.komyagin.dao.entity.DomainObject;
 
 /**
  *
